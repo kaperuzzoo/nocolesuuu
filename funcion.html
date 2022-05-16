@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let cinco = 5
+
+        function suma(cinco,edad){
+         console.log(cinco+edad);
+        }
+
+        suma(5,9)
+
+        let seis = 6
+
+        function resta(edad,seis){
+        console.log(edad-seis);
+        }
+
+        resta(9,6)
+
+        function estoEsUnaFuncion(){
+         console.log("primeraFuncion");
+         console.log("segundaFuncion");
+         console.log("terceraFuncion");
+        }
+
+        function unaFuncionQueDevuelveValor(){
+         console.log("PrimeraFuncion");
+         console.log("SegundaFuncion");
+         console.log("TerceraFuncion");
+         return "La funcion ha retornado una Cadena de texto";
+        }
+
+        function datos(nombre,edad){
+         console.log(`hola mi nombre es ${nombre} y esta es mi edad ${edad}`);
+        }
+
+        datos("David",9);
+
+        function funcionDeclarada(){
+         console.log("Esto es una funcion declarada puede invocarse en cualquier parte de nuestro codigo,incluso antes de que la funcion sea declarada");
+        }
+
+        const funcionExpresada = function(){
+         console.log("Esto es una funcion expresada,es decir,una funcion que se le ha asignado como valor a una variable,si no imvocamos esta funcion antes de su definicion JS nos dira ...")
+        }
+
+        funcionExpresada();
+
+    </script>
+</head>
+<body>
+
+    <h1>Funciones GG</h1>
+
+</body>
+</html>
